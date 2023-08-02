@@ -163,12 +163,6 @@ const About = () => {
         With more than 300+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
         </SubTextLight>
         <SubText>
-        Our Mission and Vision
-        </SubText>
-        <SubTextLight>
-        The mission of LegitArt.DAO is twofold: to foster honest creativity and support custom handmade artwork from artists all around the world. By embracing the ethos of decentralization, LegitArt seeks to become the Kickstarter of the crypto world, revolutionizing the way funding is accessed and allocated. Our vision is to create a vibrant ecosystem where artists can thrive, and startups can secure the financial resources required to fuel their growth and drive innovation.
-        </SubTextLight>
-        <SubText>
         The Core Element: LegitArt NFT
         </SubText>
         <SubTextLight>
