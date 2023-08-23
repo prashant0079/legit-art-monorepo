@@ -213,7 +213,7 @@ const Navigation = () => {
         <Menu click={click}>
           <MenuItem onClick={() => scrollTo("home")}>Home</MenuItem>
           <MenuItem onClick={() => scrollTo("about")}>About</MenuItem>
-          <MenuItem onClick={() => window.location.replace('http://localhost:3000/')}>Propositions</MenuItem>
+          <MenuItem onClick={() => window.location.replace('https://legit-art-propositions.vercel.app/')}>Propositions</MenuItem>
           <ListItemButton onClick={handleClick} sx={{ pl: 2, pr: 2 }}>
             <ListItemText primary="Docs" sx={{ color: "#6734FF"}} />
           </ListItemButton>
