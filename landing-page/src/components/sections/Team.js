@@ -138,10 +138,10 @@ const Team = () => {
     <ConfettiComponent  /> </Suspense>
       <Title>Team</Title>
       <Container>
-        <MemberComponent img={img1}  name="PRASHANT" position="The Brains/Coder" />
         <MemberComponent img={img2}  name="JASON" position="Missing Legend/Co-Founder" />
-        <MemberComponent img={img3}  name="ADRIAN" position="The Ace/Co-Founder" />
-        <MemberComponent img={img4}  name="CHRISTY" position="The Treasury/CFO" />
+        <MemberComponent img={img3}  name="ADRIAN" position="Ace/Co-Founder" />
+        <MemberComponent img={img1}  name="PRASHANT" position="Brains/Coder" />
+        <MemberComponent img={img4}  name="CHRISTY" position="Treasury/CFO" />
         <MemberComponent img={img5}  name="DAVE" position="The Man" />
       </Container>
     </Section>

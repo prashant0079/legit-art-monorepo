@@ -2,13 +2,8 @@ import React, { lazy, Suspense } from 'react'
 import styled from 'styled-components'
 // import Banner from './Banner'
 import Logo from './Logo'
-
-import Facebook from '../Icons/Facebook'
-import Instagram from '../Icons/Instagram'
-import Twitter from '../Icons/Twitter'
-import LinkedIn from '../Icons/LinkedIn'
 import Loading from './Loading'
-import SemproLogo from '../assets/SEMPRO_AlternativeLogo_12-12-2022_SLS-04.png'
+import Discord from './Icons/Discord'
 
 const Banner = lazy(() => import("./Banner"));
 
@@ -141,29 +136,11 @@ const Footer = () => {
     <Left> 
     <Logo />
     <IconList>
-      <a href="http://facebook.com" target='_blank' 
+      <a href="https://t.co/eSYIjqqlEU" target='_blank' 
       rel="noopener noreferrer"
-      aria-label='facebook'
+      aria-label='discord'
       >
-        <Facebook />
-      </a>
-      <a href="https://www.instagram.com/code.bucks/" target='_blank' 
-      rel="noopener noreferrer"
-      aria-label='instagram'
-      >
-        <Instagram />
-      </a>
-      <a href="https://twitter.com/code_bucks" target='_blank' 
-      rel="noopener noreferrer"
-      aria-label='twitter'
-      >
-        <Twitter />
-      </a>
-      <a href="https://www.linkedin.com/in/codebucks/" target='_blank' 
-      rel="noopener noreferrer"
-      aria-label='linkedin'
-      >
-        <LinkedIn />
+        <Discord />
       </a>
     </IconList>
     </Left>
@@ -182,7 +159,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} LegitART.DAO. All rights reserved.
         </span>
         <span>
-          Made with &#10084; by <a href="https://devdreaming.com/about" target="_blank" rel="dofollow noreferrer">
+          Made with &#10084; by <a href="#" target="_blank" rel="dofollow noreferrer">
             SEMPRO
           </a>
         </span>
