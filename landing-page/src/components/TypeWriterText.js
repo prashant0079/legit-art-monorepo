@@ -106,9 +106,6 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Bored of just buying NFTs? Try LegitART today</SubTitle>
     <ButtonContainer>
-    <Button text="Explore" link="#about" />
-    </ButtonContainer>
-    <ButtonContainer>
     <Button text="Login" link="#about" />
     <Button text="Sign Up" link="#about" />
     </ButtonContainer>
